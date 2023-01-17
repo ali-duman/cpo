@@ -4,7 +4,7 @@ import random, string
 def creation_nom():
     letters = string.ascii_lowercase
     text = ''.join(random.choice(letters) for i in range(10))
-    return text
+    return text.title()
 
 
 def categorie_age(age):
